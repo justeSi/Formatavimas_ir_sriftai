@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+body {
+ margin: 0 auto;
+ width: 80%;   
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    width: 100%;
+}
+/* Formatavimas su Open Sans */
+.open-sans h1 {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.open-sans h3 {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+.open-sans h5{
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 12.4px;
+}
+.open-sans p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 21.4px;
+}
+
+.open-sans blockquote {
+    font-family: "Open Sans";
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border-left: 2px solid darkgrey;
+    padding-left: 10px;
+}
+
+.open-sans pre {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+/* Formatavimas su Carme */
+.carme h1 {
+    font-family: "Carme";
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.carme h3 {
+    font-family: "Carme";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 15.4px;
+}
+
+.carme h5{
+    font-family: "Carme";
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 12.4px;
+}
+.carme p {
+    font-family: "Carme";
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 21.4px;
+}
+
+.carme blockquote {
+    font-family: "Carme";
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 30px;
+    border-left: 2px  dotted darkgrey;
+    padding-left: 10px;
+}
+
+.carme pre {
+    font-family: "Carme";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: -10px 10px 5px #ccc;
+}
+
+/* Formatavimas su Arapey  */
+
+.arapey h1 {
+    font-family: "Arapey";
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.arapey h3 {
+    font-family: "Arapey";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+.arapey h5{
+    font-family: "Arapey";
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 12.4px;
+}
+.arapey p {
+    font-family: "Arapey";
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 21.4px;
+}
+
+.arapey blockquote {
+    font-family: "Arapey";
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border-left: 2px dotted darkgrey;
+    padding-left: 10px;
+}
+
+.arapey pre {
+    font-family: "Arapey";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+@media all and (max-width: 720px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    float: left;
+    width: 100%;
+    }
+}
